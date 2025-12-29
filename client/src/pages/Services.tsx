@@ -115,7 +115,7 @@ const faqs = [
     answer: "The timeline varies based on your current level, target programs, and sport seasonality. College placements typically take 6-18 months for optimal results, while professional connections can develop over 1-3 years of relationship building.",
   },
   {
-    question: "What makes Elite Sports different from other recruiting services?",
+    question: "What makes First Choice Athlete different from other recruiting services?",
     answer: "Our team consists of former scouts, coaches, and sports industry professionals with direct relationships at hundreds of programs. We don't just send emails—we make personal introductions and advocate directly for our athletes.",
   },
   {

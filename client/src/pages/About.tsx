@@ -94,7 +94,7 @@ export default function About() {
               <span className="text-primary">Since 2009</span>
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed" data-testid="text-about-description">
-              Elite Sports Recruiting was founded with a simple mission: to bridge the gap between talented athletes and the opportunities they deserve. What started as a small operation has grown into one of the most trusted names in sports recruitment.
+              First Choice Athlete was founded with a simple mission: to bridge the gap between talented athletes and the opportunities they deserve. What started as a small operation has grown into one of the most trusted names in sports recruitment.
             </p>
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function About() {
                   Our founder, James Mitchell, spent two decades as an NFL scout before realizing that countless talented athletes were slipping through the cracks of the recruitment system. Many had the skills but lacked the connections, guidance, or resources to showcase their abilities to the right people.
                 </p>
                 <p>
-                  Elite Sports Recruiting was born from this realization. We assembled a team of former coaches, scouts, sports psychologists, and media professionals who shared a common goal: to level the playing field and give every deserving athlete a fair shot at success.
+                  First Choice Athlete was born from this realization. We assembled a team of former coaches, scouts, sports psychologists, and media professionals who shared a common goal: to level the playing field and give every deserving athlete a fair shot at success.
                 </p>
                 <p>
                   Today, we've helped over 500 athletes achieve their dreams, from securing full scholarships at prestigious universities to signing professional contracts. But for us, it's never just about the numbers—it's about the lives we change and the families we impact.
@@ -138,6 +138,35 @@ export default function About() {
       </section>
 
       <section className="py-20 bg-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <Card className="p-8" data-testid="card-mission">
+              <CardContent className="p-0">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-md bg-primary/10 mb-4">
+                  <Target className="h-7 w-7 text-primary" />
+                </div>
+                <h3 className="font-heading text-2xl font-bold uppercase mb-4">Our Mission</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  To champion athlete success through expert consultation, personalized recruiting strategies, and transparent support that strengthens exposure, builds confidence, and helps them secure the right opportunities to succeed.
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="p-8" data-testid="card-vision">
+              <CardContent className="p-0">
+                <div className="inline-flex items-center justify-center w-14 h-14 rounded-md bg-primary/10 mb-4">
+                  <Globe className="h-7 w-7 text-primary" />
+                </div>
+                <h3 className="font-heading text-2xl font-bold uppercase mb-4">Our Vision</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  To become the most trusted partner for student-athletes by providing clear guidance, credible pathways, and opportunities that elevate their athletic and academic futures.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-muted/50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="font-subheading text-primary font-bold uppercase tracking-widest text-sm">

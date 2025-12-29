@@ -444,7 +444,7 @@ export default function Careers() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="font-subheading text-primary font-bold uppercase tracking-widest text-sm">
-              Life at Elite Sports
+              Life at First Choice Athlete
             </span>
             <h2 className="font-heading text-3xl sm:text-4xl font-bold uppercase mt-2" data-testid="text-culture-title">
               Our Culture

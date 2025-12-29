@@ -2,6 +2,7 @@ import { Link, useLocation } from "wouter";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logoImage from "@assets/First_Choice_Athlete_1766981351476.png";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -19,13 +20,8 @@ export function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 gap-4">
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-md flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-xl">E</span>
-            </div>
-            <span className="font-heading text-xl font-bold uppercase tracking-wide" data-testid="text-logo">
-              Elite Sports
-            </span>
+          <Link href="/" className="flex items-center">
+            <img src={logoImage} alt="First Choice Athlete" className="h-10" data-testid="img-logo" />
           </Link>
 
           <div className="hidden md:flex items-center gap-1">

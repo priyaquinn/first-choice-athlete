@@ -1,20 +1,28 @@
-# Elite Sports Recruiting Agency Website
+# First Choice Athlete Website
 
 ## Overview
 A professional website for a sports recruiting agency that connects talented athletes with top universities and professional teams. Built with a modern React frontend and Express backend.
+
+## Company Info
+- **Name**: First Choice Athlete
+- **Logo**: Located at `attached_assets/First_Choice_Athlete_1766981351476.png`
 
 ## Color Scheme
 - **Primary Color**: Red (#b4111d / HSL 355 88% 39%)
 - **Secondary Color**: Black (#000000)
 
 ## Typography
-- **Headlines**: Oswald (Bold, Extra Bold)
-- **Subheadings**: Roboto Condensed (Bold, Medium)
-- **Body Text**: Inter (Regular, Medium)
+- **Logo Text**: Bank Gothic
+- **Headlines & Titles**: Fira Code (Bold)
+- **Body Text**: Montserrat (Regular, Medium)
+
+## Mission & Vision
+- **Mission**: To champion athlete success through expert consultation, personalized recruiting strategies, and transparent support that strengthens exposure, builds confidence, and helps them secure the right opportunities to succeed.
+- **Vision**: To become the most trusted partner for student-athletes by providing clear guidance, credible pathways, and opportunities that elevate their athletic and academic futures.
 
 ## Pages
 1. **Home** (`/`) - Hero section, stats, featured athletes, process timeline, testimonials
-2. **About** (`/about`) - Company story, values, team, milestones timeline
+2. **About** (`/about`) - Company story, mission, vision, values, team, milestones timeline
 3. **Services** (`/services`) - 6 service offerings, FAQ accordion
 4. **Blog** (`/blog`) - Blog posts with category filtering, newsletter signup
 5. **Work With Us** (`/careers`) - Athlete application form, job listings, benefits
@@ -57,6 +65,8 @@ The application runs on port 5000 with the `npm run dev` command, which starts b
 
 ## Recent Changes
 - December 2024: Initial build with all 5 pages
+- December 2024: Rebranded to "First Choice Athlete" with new logo and fonts (Fira Code for headings, Montserrat for body)
+- Added Mission and Vision sections to About page
 - Implemented athlete application form with react-hook-form and zod validation
 - Added blog post fetching from API with category filtering
 - Newsletter subscription functionality in footer and blog page

@@ -67,7 +67,7 @@ const processSteps = [
 
 const testimonials = [
   {
-    quote: "Elite Sports changed my life. They saw potential in me when no one else did and helped me secure a full ride to my dream school.",
+    quote: "First Choice Athlete changed my life. They saw potential in me when no one else did and helped me secure a full ride to my dream school.",
     name: "Michael Torres",
     role: "Football, University of Michigan",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
@@ -110,7 +110,7 @@ export default function Home() {
             <span className="text-primary">Are Made</span>
           </h1>
           <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto mb-8 leading-relaxed" data-testid="text-hero-description">
-            Elite Sports Recruiting connects exceptional athletes with top-tier universities and professional teams worldwide. Let us help you achieve your dreams.
+            First Choice Athlete connects exceptional athletes with top-tier universities and professional teams worldwide. Let us help you achieve your dreams.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/careers">

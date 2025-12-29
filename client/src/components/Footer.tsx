@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
+import logoImage from "@assets/First_Choice_Athlete_1766981351476.png";
 
 const quickLinks = [
   { label: "Home", href: "/" },
@@ -60,13 +61,8 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 bg-primary rounded-md flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-xl">E</span>
-              </div>
-              <span className="font-heading text-xl font-bold uppercase tracking-wide">
-                Elite Sports
-              </span>
+            <div className="flex items-center mb-6">
+              <img src={logoImage} alt="First Choice Athlete" className="h-10 invert" />
             </div>
             <p className="text-background/70 mb-6 leading-relaxed">
               Connecting talented athletes with top universities and professional teams worldwide. Your journey to athletic excellence starts here.
@@ -124,7 +120,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-                <span className="text-background/70">info@elitesports.com</span>
+                <span className="text-background/70">info@firstchoiceathlete.com</span>
               </li>
             </ul>
             <div>
@@ -157,7 +153,7 @@ export function Footer() {
 
         <div className="border-t border-background/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/50 text-sm">
-            © 2024 Elite Sports Recruiting. All rights reserved.
+            © 2024 First Choice Athlete. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <span className="text-background/50 hover:text-background/70 cursor-pointer">Privacy Policy</span>
