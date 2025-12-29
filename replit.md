@@ -12,9 +12,10 @@ A professional website for a sports recruiting agency that connects talented ath
 - **Secondary Color**: Black (#000000)
 
 ## Typography
-- **Logo Text**: Bank Gothic
-- **Headlines & Titles**: Fira Code (Bold)
-- **Body Text**: Montserrat (Regular, Medium)
+- **Logo Text**: Bank Gothic (in logo image only)
+- **Headlines & Titles**: Oswald (Bold)
+- **Subheadings**: Roboto Condensed (Bold, Medium)
+- **Body Text**: Inter (Regular, Medium)
 
 ## Mission & Vision
 - **Mission**: To champion athlete success through expert consultation, personalized recruiting strategies, and transparent support that strengthens exposure, builds confidence, and helps them secure the right opportunities to succeed.

@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
-import logoImage from "@assets/First_Choice_Athlete_1766981351476.png";
+import logoImageInverse from "@assets/First_Choice_Athlete_2_1766981653379.png";
 
 const quickLinks = [
   { label: "Home", href: "/" },
@@ -62,7 +62,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <div className="flex items-center mb-6">
-              <img src={logoImage} alt="First Choice Athlete" className="h-10 invert" />
+              <img src={logoImageInverse} alt="First Choice Athlete" className="h-10" />
             </div>
             <p className="text-background/70 mb-6 leading-relaxed">
               Connecting talented athletes with top universities and professional teams worldwide. Your journey to athletic excellence starts here.
